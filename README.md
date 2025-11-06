@@ -17,18 +17,16 @@ To write and execute an Assembly language program for finding the square of a gi
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
-
+MOV A,P0
+MOV R0,A
+MOV B,R0
+MUL AB
+MOV P2,A
+END
 ```
 
 ## OUTPUT
+<img width="1091" height="552" alt="image" src="https://github.com/user-attachments/assets/648f3c1d-d784-4f93-b38d-5b79b61e6a6a" />
 
 
 ## RESULT
